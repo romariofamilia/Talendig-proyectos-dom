@@ -1,0 +1,38 @@
+body {
+    background-image: url('/img/1025.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.container {
+    box-shadow: 0 0 4px 4px;
+    border-radius: 5px;
+    padding: 40px;
+    backdrop-filter: blur(6px);
+    width: 0;
+    overflow: hidden;
+    transition: width .3s;
+}
+
+
+
+.container h2 {
+    text-wrap: wrap;
+}
+
+.container p {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 20px;
+}
