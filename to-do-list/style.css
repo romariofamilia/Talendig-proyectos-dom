@@ -1,0 +1,81 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(42, 42, 42);
+}
+
+.container {
+    background-color: rgb(75, 75, 75);
+    width: 400px;
+    height: 500px;
+    color: #fff;
+
+}
+
+.operative {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+.operative button {
+    background-color: rgb(140, 0, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 10px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.task-actions {
+    display: grid;
+}
+
+.input-task {
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(24, 24, 24);
+    overflow-y:scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.item-list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    padding: 15px 10px;
+    text-align: center;
+    background-color: rgb(0, 71, 214);
+    cursor: pointer;
+}
+
+.item-list-done {
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+.del-button {
+    background-color: red;
+    padding: 0 10px;
+}
